@@ -19,7 +19,7 @@ body {
 }
 
 .keyboard {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
@@ -35,8 +35,8 @@ li {
   border-radius: 0.4em;
   line-height: 3em;
   letter-spacing: 1px;
-  margin: 0.4em;
-  transition: 0.3s;
+  margin: 0.25em;
+  transition: 0.1s;
   text-align: center;
   font-size: 1em;
 }
@@ -136,14 +136,14 @@ li2 {
 
 
 .hit {
-	-webkit-animation: hit 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: hit 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	-webkit-animation: hit 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: hit 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes hit {
   0% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
@@ -152,8 +152,8 @@ li2 {
 }
 @keyframes hit {
   0% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
